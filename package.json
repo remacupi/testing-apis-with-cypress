@@ -11,5 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remacupi/testing-apis-with-cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remacupi/testing-apis-with-cypress/issues"
+  },
+  "homepage": "https://github.com/remacupi/testing-apis-with-cypress#readme",
+  "scripts": {
+   "test": "cypress open"
   }
 }
