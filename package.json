@@ -22,5 +22,8 @@
   "homepage": "https://github.com/remacupi/testing-apis-with-cypress#readme",
   "scripts": {
    "test": "cypress open"
-  }
+ },
+ "cypress-cucumber-preprocessor":{
+   "step_definitions": "cypress/integration/**/"
+ }
 }
