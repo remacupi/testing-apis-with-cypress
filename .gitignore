@@ -1,2 +1,3 @@
-# avoid push node_modules
 node_modules
+cypress/screenshots
+cypress/videos
