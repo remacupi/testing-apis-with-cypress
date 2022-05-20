@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://todo-app-barkend.herokuapp.com/",
+  "baseUrl": "https://worldentities.org/api/",
   "integrationFolder": "cypress/integration/api-tests",
   "testFiles": "*.feature",
   "ignoreTestFiles": [
