@@ -9,6 +9,6 @@ export class DeleteEntitiesApi {
 
   //DELETE entity by ID
   deleteEntity(id){
-    cy.request('DELETE', `/todos/${id}`).as('request');
+    cy.request('DELETE', `/entities/${id}`).as('request');
   }
 }

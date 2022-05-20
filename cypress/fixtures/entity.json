@@ -1,1 +1,7 @@
-{"task": "run test"}
+{
+"name" : "entity1",
+"entity_type": "application",
+"description": "description of entity 1",
+"is_verified": true,
+"department_id": 3
+}

@@ -2,7 +2,7 @@ export class GetEntitiesApi {
 
    //GET entity by ID
    getEntity(id){
-     cy.request('GET', `/todos/${id}`).as('request');
+     cy.request('GET', `/entities/${id}`).as('request');
    }
 
    //GET created entity
