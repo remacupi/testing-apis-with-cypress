@@ -1,11 +1,11 @@
-import {ENTITIES_URL} from "../api-objects/urls_api"
+import {ENTITIES_URL} from "../api-objects/urls_api";
 
 export class DeleteEntitiesApi {
 
   //DELETE entity by ID
   deleteEntity(id){
-    var deleteRequest = ENTITIES_URL + id;
-    cy.request('DELETE', deleteRequest).as('request');
+    var delete_request = ENTITIES_URL + id;
+    cy.request('DELETE', delete_request).as('request');
   }
 
   //DELETE entity created with fixtures
